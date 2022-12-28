@@ -1,5 +1,23 @@
+.allblocks {
+  width: 100%;
+  height: 2208px;
+}
+.smallflex {
+  width: 100%;
+  display: flex;
+}
+.bigflex {
+  width: 100%;
+  display: flex;
+}
+.rightflex {
+  width: 40%;
+}
+.leftflex {
+  width: 61%;
+}
 .block1 {
-  width: 565px;
+  width: 39%;
   height: 421px;
   background-color: white;
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -7,7 +25,7 @@
   border-bottom: 3px solid rgba(207, 214, 255, 1);
 }
 .block2 {
-  width: 883px;
+  width: 61%;
   height: 421px;
   background: url("../images/b2_wave.png");
   background-color: rgba(207, 214, 255, 1);
@@ -21,25 +39,11 @@
   margin-left: 21px;
   margin-top: 15px;
 }
-.smallflex {
-  width: 100%;
-  display: flex;
-}
-.bigflex {
-  width: 100%;
-  display: flex;
-}
-.rightflex {
-  width: 562px;
-}
-.leftflex {
-  width: 878px;
-}
 
 /* левый флекс */
 
 .block3 {
-  width: 497px;
+  width: 56%;
   height: 214px;
   background-color: rgba(222, 248, 202, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -50,20 +54,23 @@
   overflow: hidden;
 }
 .block4 {
-  width: 375px;
+  width: 43%;
   height: 214px;
+  background: url("../images/b4_circle.png");
+  background-repeat: no-repeat;
+  background-position: -6px 28px;
   background-color: white;
   display: inline-block;
   border-bottom: 3px solid rgba(207, 214, 255, 1);
 }
-.block4 > img {
-  width: 337px;
-  height: 133px;
-  margin-top: 40px;
-  margin-left: 18px;
+.block4:hover {
+  background: url("../images/b4_circleblack.png");
+  background-repeat: no-repeat;
+  background-position: 37px 55px;
+  background-color: white;
 }
 .block6 {
-  width: 322px;
+  width: 37%;
   height: 410px;
   background-color: white;
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -72,7 +79,7 @@
   overflow: hidden;
 }
 .block7 {
-  width: 550px;
+  width: 62%;
   height: 588px;
   background-color: rgba(207, 214, 255, 1);
   border-top: 3px solid rgba(207, 214, 255, 1);
@@ -91,7 +98,7 @@
   margin-top: 84px;
 }
 .block10 {
-  width: 322px;
+  width: 37%;
   height: 371px;
   background-color: rgba(222, 248, 202, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -123,22 +130,25 @@
   margin-left: 247px;
 }
 .block11 {
-  width: 550px;
+  width: 62%;
   height: 198px;
+  background: url("../images/b11_circle.png");
+  background-repeat: no-repeat;
+  background-position: 7px 34px;
   background-color: white;
   border-left: 3px solid rgba(207, 214, 255, 1);
   display: inline-block;
   float: right;
   margin-top: -8px;
 }
-.block11 > img {
-  width: 484px;
-  height: 133px;
-  margin-top: 40px;
-  margin-left: 18px;
+.block11:hover {
+  background: url("../images/b11_circleblack.png");
+  background-repeat: no-repeat;
+  background-position: 55px 47px;
+  background-color: white;
 }
 .block13 {
-  width: 875px;
+  width: 100%;
   height: 215px;
   background-color: rgba(207, 214, 255, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -147,7 +157,7 @@
   display: inline-block;
 }
 .block14 {
-  width: 275px;
+  width: 31%;
   height: 518px;
   background-color: rgba(207, 214, 255, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
@@ -159,7 +169,7 @@
   rotate: 180deg;
 }
 .block15 {
-  width: 237px;
+  width: 27%;
   height: 518px;
   background-color: white;
   border-bottom: 3px solid rgba(207, 214, 255, 1);
@@ -190,7 +200,7 @@
   margin-top: 16px;
 }
 .block16 {
-  width: 369px;
+  width: 42%;
   height: 253px;
   background-color: rgba(222, 248, 202, 1);
   border-bottom: 3px solid rgba(207, 214, 255, 1);
@@ -199,33 +209,25 @@
   float: right;
 }
 .block17 {
-  width: 365px;
+  width: 42%;
   height: 268px;
   background-color: rgba(207, 214, 255, 1);
   display: inline-block;
   float: right;
   border-left: 3px solid rgba(207, 214, 255, 1);
 }
-.block17 > p {
-  font-size: 55px;
-  font-style: normal;
-  font-family: Montserrat;
-  margin-top: 36px;
-  margin-left: 26px;
-  line-height: 66px;
-}
 
 /* правый флекс */
 
 .block5 {
-  width: 556px;
+  width: 99%;
   height: 344px;
   background-color: rgba(222, 248, 202, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
   border-right: 3px solid rgba(207, 214, 255, 1);
 }
 .block8 {
-  width: 248px;
+  width: 45%;
   height: 383px;
   background-color: white;
   border: 3px solid rgba(207, 214, 255, 1);
@@ -234,7 +236,7 @@
   overflow: hidden;
 }
 .block9 {
-  width: 302px;
+  width: 52.9%;
   height: 383px;
   background-color: rgba(207, 214, 255, 1);
   border: 3px solid rgba(207, 214, 255, 1);
@@ -265,7 +267,7 @@
   margin-left: 121px;
 }
 .block12 {
-  width: 556px;
+  width: 99%;
   height: 609px;
   background-color: rgba(222, 248, 202, 1);
   border-right: 3px solid rgba(207, 214, 255, 1);
@@ -274,7 +276,7 @@
   overflow: hidden;
 }
 .block18 {
-  width: 556px;
+  width: 99%;
   height: 392px;
   background-color: white;
   border-bottom: 3px solid rgba(207, 214, 255, 1);
@@ -282,7 +284,7 @@
   border-left: 3px solid rgba(207, 214, 255, 1);
 }
 .block19 {
-  width: 1432px;
+  width: 99.2%;
   height: 34px;
   font-size: 24px;
   font-style: normal;

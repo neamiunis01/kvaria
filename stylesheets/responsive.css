@@ -1,36 +1,72 @@
 @media only screen and (min-width: 1920px) and (max-device-width: 2560px) {
   body {
-    width: 1920px;
+    width: 100%;
+    height: 2943px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 2943px;
   }
 }
 
 @media only screen and (min-width: 1440px) and (max-device-width: 1919px) {
   body {
-    width: 1440px;
+    width: 100%;
+    height: 2208px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 2208px;
   }
 }
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1439px) {
   body {
-    width: 1280px;
+    width: 100%;
+    height: 1965px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 1965px;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
   body {
-    width: 1024px;
+    width: 100%;
+    height: 1575px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 1575px;
   }
 }
 @media only screen and (min-device-width: 834px) and (max-device-width: 1023px) {
   body {
-    width: 834px;
+    width: 100%;
+    height: 4295px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 4295px;
   }
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 833px) {
   body {
-    width: 414px;
+    width: 100%;
+    height: 2136px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 2136px;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 413px) {
   body {
-    width: 320px;
+    width: 100%;
+    height: 1668px;
+  }
+  .allblocks {
+    width: 100%;
+    height: 1668px;
   }
 }
