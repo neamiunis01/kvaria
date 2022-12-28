@@ -48,6 +48,19 @@
     width: 100%;
     height: 4295px;
   }
+  .smallflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 833px) {
   body {
@@ -57,6 +70,19 @@
   .allblocks {
     width: 100%;
     height: 2136px;
+  }
+  .smallflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
 
@@ -68,5 +94,18 @@
   .allblocks {
     width: 100%;
     height: 1668px;
+  }
+  .smallflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
