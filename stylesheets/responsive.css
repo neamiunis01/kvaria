@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1920px) and (max-device-width: 2560px) {
+  body {
+    width: 1920px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-device-width: 1919px) {
+  body {
+    width: 1440px;
+  }
+}
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1439px) {
+  body {
+    width: 1280px;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+  body {
+    width: 1024px;
+  }
+}
+@media only screen and (min-device-width: 834px) and (max-device-width: 1023px) {
+  body {
+    width: 834px;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 833px) {
+  body {
+    width: 414px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 413px) {
+  body {
+    width: 320px;
+  }
+}

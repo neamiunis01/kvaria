@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>Квария</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <style media="screen">
+      /* html {
+      background: grey;
+      display: block;
+      height: 100%;
+      } */
+      body {
+        width: 1440px;
+        height: 2208px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        background: rgba(207, 214, 255, 1);
+      }
+      /* body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(images/desktop.png);
+      opacity: .3;
+      } */
+      .block1 > img {
+        width: 514px;
+        height: 417px;
+        margin-left: 22px;
+        margin-top: 2px;
+        animation: frog1 1s ease infinite;
+      }
+      .block1 > img:hover {
+        animation-play-state: paused;
+      }
+      @keyframes frog1 {
+        0% {width: 514px;}
+        50% {width: 386px;}
+        100% {width: 514px;}
+      }
+      .block2 {
+        display: flex;
+      }
+      .b2_c1 {
+        width: 58px;
+        height: 56px;
+        position: relative;
+        left: 574px;
+        top: -2126px;
+        animation: b2_c1 10s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c1 > img {
+        width: 58px;
+        height: 56px
+      }
+      @keyframes b2_c1 {
+        0% {left: 574px; top: -2126px;}
+        20% {left: 729px; top: -1850px;}
+        40% {left: 884px; top: -2126px;}
+        60% {left: 1039px; top: -1850px;}
+        80% {left: 1194px; top: -2126px;}
+        100% {left: 1350px; top: -1850px;}
+      }
+      .b2_c2 {
+        width: 27px;
+        height: 26px;
+        position: relative;
+        left: 686px;
+        top: -2151px;
+        animation: b2_c2 8s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c2 > img {
+        width: 27px;
+        height: 26px
+      }
+      @keyframes b2_c2 {
+        0% {left: 686px; top: -2151px;}
+        20% {left: 806px; top: -1896px;}
+        40% {left: 926px; top: -2151px;}
+        60% {left: 1046px; top: -1896px;}
+        80% {left: 1166px; top: -2151px;}
+        100% {left: 1287px; top: -1896px;}
+      }
+      .b2_c3 {
+        width: 101px;
+        height: 98px;
+        position: relative;
+        left: 656px;
+        top: -2045px;
+        animation: b2_c3 3s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c3 > img {
+        width: 101px;
+        height: 98px
+      }
+      @keyframes b2_c3 {
+        0% {left: 656px; top: -2045px;}
+        20% {left: 767px; top: -2147px;}
+        40% {left: 878px; top: -2045px;}
+        60% {left: 989px; top: -2147px;}
+        80% {left: 1100px; top: -2045px;}
+        100% {left: 1211px; top: -2147px;}
+      }
+      .b2_c4 {
+        width: 58px;
+        height: 56px;
+        position: relative;
+        left: 784px;
+        top: -2233px;
+        animation: b2_c4 6s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c4 > img {
+        width: 58px;
+        height: 56px
+      }
+      @keyframes b2_c4 {
+        0% {left: 784px; top: -2233px;}
+        20% {left: 857px; top: -2090px;}
+        40% {left: 930px; top: -2233px;}
+        60% {left: 1004px; top: -2090px;}
+        80% {left: 1077px; top: -2233px;}
+        100% {left: 1152px; top: -2090px;}
+      }
+      .b2_c5 {
+        width: 35px;
+        height: 34px;
+        position: relative;
+        left: 856px;
+        top: -2122px;
+        animation: b2_c5 9s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c5 > img {
+        width: 35px;
+        height: 34px
+      }
+      @keyframes b2_c5 {
+        0% {left: 856px; top: -2122px;}
+        20% {left: 908px; top: -2317px;}
+        40% {left: 960px; top: -2122px;}
+        60% {left: 1012px; top: -2317px;}
+        80% {left: 1064px; top: -2122px;}
+        100% {left: 1116px; top: -2317px;}
+      }
+      .b2_c6 {
+        width: 90px;
+        height: 87px;
+        position: relative;
+        left: 954px;
+        top: -2332px;
+        animation: b2_c6 10s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c6 > img {
+        width: 90px;
+        height: 87px
+      }
+      @keyframes b2_c6 {
+        0% {left: 954px; top: -2332px;}
+        5% {left: 1012px; top: -2187px;}
+        10% {left: 1066px; top: -2332px;}
+        15% {left: 1124px; top: -2187px;}
+        20% {left: 1182px; top: -2332px;}
+        25% {left: 1245px; top: -2187px;}
+        30% {left: 1182px; top: -2332px;}
+        35% {left: 1124px; top: -2187px;}
+        40% {left: 1066px; top: -2332px;}
+        45% {left: 1012px; top: -2187px;}
+        50% {left: 954px; top: -2332px;}
+        55% {left: 896px; top: -2187px;}
+        60% {left: 842px; top: -2332px;}
+        65% {left: 788px; top: -2187px;}
+        70% {left: 734px; top: -2332px;}
+        75% {left: 680px; top: -2187px;}
+        80% {left: 734px; top: -2332px;}
+        85% {left: 788px; top: -2187px;}
+        90% {left: 842px; top: -2332px;}
+        95% {left: 896px; top: -2187px;}
+        100% {left: 954px; top: -2332px;}
+      }
+      .b2_c7 {
+        width: 36px;
+        height: 35px;
+        position: relative;
+        left: 1065px;
+        top: -2289px;
+        animation: b2_c7 8s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c7 > img {
+        width: 36px;
+        height: 35px
+      }
+      @keyframes b2_c7 {
+        0% {left: 1065px; top: -2289px;}
+        25% {left: 1005px; top: -2377px;}
+        50% {left: 945px; top: -2289px;}
+        75% {left: 885px; top: -2377px;}
+        100% {left: 825px; top: -2289px;}
+      }
+      .b2_c8 {
+        width: 58px;
+        height: 56px;
+        position: relative;
+        left: 1101px;
+        top: -2236px;
+        animation: b2_c8 10s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c8 > img {
+        width: 58px;
+        height: 56px
+      }
+      @keyframes b2_c8 {
+        0% {left: 1101px; top: -2236px;}
+        25% {left: 923px; top: -2511px;}
+        50% {left: 835px; top: -2236px;}
+        75% {left: 747px; top: -2511px;}
+        100% {left: 659px; top: -2236px;}
+      }
+      .b2_c9 {
+        width: 29px;
+        height: 28px;
+        position: relative;
+        left: 1182px;
+        top: -2551px;
+        animation: b2_c9 10s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c9 > img {
+        width: 29px;
+        height: 28px
+      }
+      @keyframes b2_c9 {
+        0% {left: 1182px; top: -2551px;}
+        15% {left: 1097px; top: -2296px;}
+        30% {left: 1012px; top: -2551px;}
+        45% {left: 927px; top: -2296px;}
+        60% {left: 842px; top: -2551px;}
+        75% {left: 757px; top: -2296px;}
+        90% {left: 672px; top: -2551px;}
+        100% {left: 587px; top: -2296px;}
+      }
+      .b2_c10 {
+        width: 101px;
+        height: 98px;
+        position: relative;
+        left: 1187px;
+        top: -2435px;
+        animation: b2_c10 8s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c10 > img {
+        width: 101px;
+        height: 98px;
+      }
+      @keyframes b2_c10 {
+        0% {left: 1187px; top: -2435px;}
+        20% {left: 1096px; top: -2644px;}
+        40% {left: 1005px; top: -2435px;}
+        60% {left: 914px; top: -2644px;}
+        80% {left: 823px; top: -2435px;}
+        100% {left: 732px; top: -2644px;}
+      }
+      .b2_c11 {
+        width: 58px;
+        height: 56px;
+        position: relative;
+        left: 1315px;
+        top: -2669px;
+        animation: b2_c11 6s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c11 > img {
+        width: 58px;
+        height: 56px;
+      }
+      @keyframes b2_c11 {
+        0% {left: 1315px; top: -2669px;}
+        20% {left: 1175px; top: -2440px;}
+        40% {left: 1035px; top: -2669px;}
+        60% {left: 895px; top: -2440px;}
+        80% {left: 755px; top: -2669px;}
+        100% {left: 615px; top: -2440px;}
+      }
+      .b2_c12 {
+        width: 35px;
+        height: 34px;
+        position: relative;
+        left: 1343px;
+        top: -2507px;
+        animation: b2_c12 9s ease infinite;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 1;
+      }
+      .b2_c12 > img {
+        width: 35px;
+        height: 34px;
+      }
+      @keyframes b2_c12 {
+        0% {left: 1343px; top: -2507px;}
+        20% {left: 1199px; top: -2686px;}
+        40% {left: 1055px; top: -2507px;}
+        60% {left: 911px; top: -2686px;}
+        80% {left: 767px; top: -2507px;}
+        100% {left: 620px; top: -2686px;}
+      }
+      .ears {
+        width: 1940px;
+        height: 101px;
+        background: url(/Users/lisa/Desktop/шд/факультатив/kvaria/images/ears.png);
+        background-position: 6px 2px;
+        animation: ears_k 5s linear infinite;
+        margin-top: 52px;
+      }
+      @keyframes ears_k {
+        0% {background-position: 0px 0px;}
+        100% {background-position: -1940px 0px;}
+      }
+      .block5 > p {
+        font-size: 80px;
+        font-style: normal;
+        font-family: Montserrat;
+        padding-top: 26px;
+        padding-left: 19px;
+        line-height: 99px;
+        animation: welcome 2s ease infinite;
+      }
+      .wave1 {
+        width: 95px;
+        height: 370px;
+        display: inline-block;
+        background: url(images/wave1.png);
+        background-position: -51px 0px;
+        margin-top: 0px;
+        margin-left: 107px;
+      }
+      .w1 {
+        animation: w1 .5s steps(1) alternate infinite;
+      }
+      .smallgreencircle {
+        width: 295px;
+        height: 273px;
+        background: url(images/smallgreencircle.png);
+        margin-left: 54px;
+        margin-top: 71px;
+        padding-top: 1px;
+        animation: sgc 2s linear infinite;
+      }
+      .smallblackcircle {
+        width: 411px;
+        height: 408px;
+        background: url(images/smallblackcircle.png);
+        margin-left: 69px;
+        margin-top: 68px;
+        padding-top: .3px;
+        animation: sbc 3s linear reverse infinite;
+      }
+      .biggreencircle {
+        width: 547px;
+        height: 545px;
+        background: url(images/biggreencircle.png);
+        margin-left: 5px;
+        margin-top: 17px;
+        padding-top: 1px;
+        animation: bgc 4s linear infinite;
+      }
+      .bigblackcircle {
+        width: 549px;
+        height: 590px;
+        position: absolute;
+        top: 645px;
+        left: 328px;
+        overflow: hidden;
+      }
+      .bigblackcircle:hover {
+        overflow: visible;
+      }
+      .bigblackcircle > img {
+        width: 669px;
+        height: 669px;
+        position: relative;
+        top: -39px;
+        left: -57px;
+        animation: bbc 5s linear reverse infinite;
+      }
+      .block8 > img {
+        width: 907px;
+        height: 667px;
+        margin-left: -164px;
+        margin-top: 74px;
+        animation: frog3 3s linear infinite;
+      }
+      .block6 > img {
+        width: 504px;
+        height: 298px;
+        margin-top: 57px;
+        margin-left: -215px;
+        animation: frog2 2s linear infinite;
+      }
+      @keyframes frog2 {
+        0% {margin-left: -215px; margin-top: 57px;}
+        50% {margin-left: -176px; margin-top: 57px;}
+        100% {margin-left: -215px; margin-top: 57px;}
+      }
+      .wave2 {
+        width: 125px;
+        height: 383px;
+        display: inline-block;
+        background: url(images/wave2.png);
+        background-position: -42px 0px;
+        margin-top: 0px;
+        margin-left: 85px;
+      }
+      .w2 {
+        animation: w2 .5s steps(1) alternate infinite;
+      }
+      .k_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 40px;
+        margin-top: 65px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .v_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a1_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a2_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a3_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a4_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a5_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      .a6_letter {
+        width: 72px;
+        height: 80px;
+        margin-left: 16px;
+        margin-top: 38px;
+        padding-right: 10px;
+        animation: kva_letters 1s infinite;
+      }
+      @keyframes kva_letters {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.3);}
+        100% {transform: scale(1);}
+      }
+      .k_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .v_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a1_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a2_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a3_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a4_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a5_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      .a6_letter:hover {
+        animation: kva 1s infinite;
+        animation-play-state: running;
+      }
+      @keyframes kva {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.6);}
+        100% {transform: scale(1);}
+      }
+      .a-wave {
+        width: 3535px;
+        height: 609px;
+        background: url('/Users/lisa/Desktop/шд/факультатив/kvaria/images/a-wave.png');
+        background-position: -13px -76px;
+        animation: aw_k 15s linear infinite;
+      }
+      @keyframes aw_k {
+        0% {background-position: -3513px -76px;}
+        100% {background-position: -13px -76px;}
+      }
+      .b14_c1 {
+        border: 3px solid black;
+        height: 64px;
+        width: 64px;
+        border-radius: 100%;
+        margin-left: 29px;
+        margin-top: 21px;
+        animation: c1 1s linear infinite;
+      }
+      .b14_c1:hover {
+      animation-play-state: paused;
+      }
+      .b14_c2 {
+        border: 3px solid black;
+        height: 64px;
+        width: 64px;
+        border-radius: 100%;
+        margin-left: 2px;
+        margin-top: 21px;
+        animation: c2 2s linear infinite;
+      }
+      .b14_c2:hover {
+      animation-play-state: paused;
+      }
+      .b14_c3 {
+        border: 3px solid black;
+        height: 64px;
+        width: 64px;
+        border-radius: 100%;
+        margin-left: 2px;
+        margin-top: 21px;
+        animation: c3 3s linear infinite;
+      }
+      .b14_c3:hover {
+      animation-play-state: paused;
+      }
+      .greensound1 > img {
+        width: 75px;
+        height: 72px;
+        padding-bottom: 10px;
+      }
+      .greensound2 > img {
+        width: 75px;
+        height: 72px;
+        padding-bottom: 10px;
+      }
+      .greensound3 > img {
+        width: 75px;
+        height: 72px;
+        padding-bottom: 10px;
+      }
+      .gs1_1 {
+        animation: gs 3s infinite;
+      }
+      .gs1_1:hover {
+        animation-play-state: paused;
+      }
+      .gs1_2 {
+        animation: gs 2.5s infinite;
+      }
+      .gs1_2:hover {
+        animation-play-state: paused;
+      }
+      .gs1_3 {
+        animation: gs 2s infinite;
+      }
+      .gs1_3:hover {
+        animation-play-state: paused;
+      }
+      .gs1_4 {
+        animation: gs 1.5s infinite;
+      }
+      .gs1_4:hover {
+        animation-play-state: paused;
+      }
+      .gs1_5 {
+        animation: gs 1s infinite;
+      }
+      .gs1_5:hover {
+        animation-play-state: paused;
+      }
+      .gs1_6 {
+        animation: gs .5s infinite;
+      }
+      .gs1_6:hover {
+        animation-play-state: paused;
+      }
+      .gs2_1 {
+        animation: gs 3.5s infinite;
+      }
+      .gs2_1:hover {
+        animation-play-state: paused;
+      }
+      .gs2_2 {
+        animation: gs 3s infinite;
+      }
+      .gs2_2:hover {
+        animation-play-state: paused;
+      }
+      .gs2_3 {
+        animation: gs 2.5s infinite;
+      }
+      .gs2_3:hover {
+        animation-play-state: paused;
+      }
+      .gs2_4 {
+        animation: gs 2s infinite;
+      }
+      .gs2_4:hover {
+        animation-play-state: paused;
+      }
+      .gs2_5 {
+        animation: gs 1.5s infinite;
+      }
+      .gs2_5:hover {
+        animation-play-state: paused;
+      }
+      .gs2_6 {
+        animation: gs 1s infinite;
+      }
+      .gs2_6:hover {
+        animation-play-state: paused;
+      }
+      .gs3_1 {
+        animation: gs 3.3s infinite;
+      }
+      .gs3_1:hover {
+        animation-play-state: paused;
+      }
+      .gs3_2 {
+        animation: gs 2.8s infinite;
+      }
+      .gs3_2:hover {
+        animation-play-state: paused;
+      }
+      .gs3_3 {
+        animation: gs 2.3s infinite;
+      }
+      .gs3_3:hover {
+        animation-play-state: paused;
+      }
+      .gs3_4 {
+        animation: gs 1.8s infinite;
+      }
+      .gs3_4:hover {
+        animation-play-state: paused;
+      }
+      .gs3_5 {
+        animation: gs 1.3s infinite;
+      }
+      .gs3_5:hover {
+        animation-play-state: paused;
+      }
+      .gs3_6 {
+        animation: gs .8s infinite;
+      }
+      .gs3_6:hover {
+        animation-play-state: paused;
+      }
+      @keyframes gs {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+      }
+      .block16 > img {
+        width: 321px;
+        height: 136px;
+        margin-left: 17px;
+        margin-top: 61px;
+        animation: logo 1s linear infinite;
+      }
+      @keyframes logo {
+        0% {transform: rotate(0deg);}
+        33% {transform: rotate(3deg);}
+        66% {transform: rotate(-3deg);}
+        100% {transform: rotate(0deg);}
+      }
+      .block18 > img {
+        width: 520px;
+        height: 426px;
+        margin-left: 30px;
+        margin-top: -24px;
+        animation: frog4 1s ease infinite;
+      }
+      .block18 > img:hover {
+        animation-play-state: paused;
+      }
+      @keyframes ew {
+        0% {right: calc(100% - 556px);}
+        100% {right: -1665px;}
+      }
+      @keyframes welcome {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+      @keyframes w1 {
+        0% {background-position: -51px 0px;}
+        16% {background-position: -242px 0px;}
+        32% {background-position: -415px 0px;}
+        48% {background-position: -549px 0px;}
+        64% {background-position: -681px 0px;}
+        80% {background-position: -852px 0px;}
+        100% {background-position: -1043px 0px;}
+      }
+      @keyframes sgc {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+      }
+      @keyframes sbc {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+      }
+      @keyframes bgc {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+      }
+      @keyframes bbc {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+      }
+      @keyframes frog3 {
+        0% {margin-left: -164px; margin-top: 74px;}
+        50% {margin-left: -214px; margin-top: 49px;}
+        100% {margin-left: -164px; margin-top: 74px;}
+      }
+      @keyframes w2 {
+        0% {background-position: -42px 0px;}
+        16% {background-position: -226px 0px;}
+        32% {background-position: -406px 0px;}
+        48% {background-position: -547px 0px;}
+        64% {background-position: -685px 0px;}
+        80% {background-position: -862px 0px;}
+        100% {background-position: -1059px 0px;}
+      }
+      @keyframes c1 {
+        0% {height: 64px;}
+        50% {height: 475px;}
+        100% {height: 64px;}
+      }
+      @keyframes c2 {
+        0% {height: 64px;}
+        50% {height: 475px;}
+        100% {height: 64px;}
+      }
+      @keyframes c3 {
+        0% {height: 64px;}
+        50% {height: 475px;}
+        100% {height: 64px;}
+      }
+      @keyframes frog4 {
+        0% {height: 426px;}
+        50% {height: 250px;}
+        100% {height: 426px;}
+      }
+    </style>
+  </head>
+  <body>
+<!-- блоки 1-2 -->
+    <div class="smallflex">
+
+      <div class="block1">
+        <img src="images/frog1.png" alt="">
+      </div>
+
+      <div class="block2"></div>
+
+    </div>
+<!-- блоки 3-18-->
+    <div class="bigflex">
+<!-- левый столбец -->
+      <div class="leftflex">
+
+        <div class="block3">
+          <div class="ears ears_k"></div>
+        </div>
+
+        <div class="block4">
+          <img src="images/greenoval.png" alt="">
+        </div>
+
+        <div class="block6">
+            <img src="images/frog2.png" alt="">
+        </div>
+
+        <div class="block7">
+          <div class="biggreencircle">
+            <div class="smallblackcircle">
+              <div class="smallgreencircle">
+                <div class="center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block10">
+          <div class="wave1 w1"></div>
+          <div class="b10_c1"></div>
+          <div class="b10_c2"></div>
+          <div class="b10_c3"></div>
+        </div>
+
+        <div class="block11">
+          <img src="images/greenoval.png" alt="">
+        </div>
+
+        <div class="block13">
+          <img class="k_letter" src="images/k_letter.png" alt="">
+          <img class="v_letter" src="images/v_letter.png" alt="">
+          <img class="a1_letter" src="images/a_letter.png" alt="">
+          <img class="a2_letter" src="images/a_letter.png" alt="">
+          <img class="a3_letter" src="images/a_letter.png" alt="">
+          <img class="a4_letter" src="images/a_letter.png" alt="">
+          <img class="a5_letter" src="images/a_letter.png" alt="">
+          <img class="a6_letter" src="images/a_letter.png" alt="">
+        </div>
+
+        <div class="block14">
+          <div class="b14_c1"></div>
+          <div class="b14_c2"></div>
+          <div class="b14_c3"></div>
+        </div>
+
+        <div class="block15">
+          <div class="greensound1">
+            <img class="gs1_1" src="images/greencircle.png" alt="">
+            <img class="gs1_2" src="images/greencircle.png" alt="">
+            <img class="gs1_3" src="images/greencircle.png" alt="">
+            <img class="gs1_4" src="images/greencircle.png" alt="">
+            <img class="gs1_5" src="images/greencircle.png" alt="">
+            <img class="gs1_6" src="images/greencircle.png" alt="">
+          </div>
+          <div class="greensound2">
+            <img class="gs2_1" src="images/greencircle.png" alt="">
+            <img class="gs2_2" src="images/greencircle.png" alt="">
+            <img class="gs2_3" src="images/greencircle.png" alt="">
+            <img class="gs2_4" src="images/greencircle.png" alt="">
+            <img class="gs2_5" src="images/greencircle.png" alt="">
+            <img class="gs2_6" src="images/greencircle.png" alt="">
+          </div>
+          <div class="greensound3">
+            <img class="gs3_1" src="images/greencircle.png" alt="">
+            <img class="gs3_2" src="images/greencircle.png" alt="">
+            <img class="gs3_3" src="images/greencircle.png" alt="">
+            <img class="gs3_4" src="images/greencircle.png" alt="">
+            <img class="gs3_5" src="images/greencircle.png" alt="">
+            <img class="gs3_6" src="images/greencircle.png" alt="">
+          </div>
+        </div>
+
+        <div class="block16">
+          <img src="images/logo.png" alt="">
+        </div>
+
+        <div class="block17">
+          <p>такого <br> вы еще <br> не видели!</p>
+        </div>
+
+      </div>
+<!-- правый столбец -->
+      <div class="rightflex">
+
+        <div class="block5">
+          <p>добро <br> пожаловать <br> в Квааарию!</p>
+        </div>
+
+        <div class="block8">
+          <img src="images/frog3.png" alt="">
+        </div>
+
+        <div class="block9">
+          <div class="wave2 w2"></div>
+          <img class="b9_c1" src="images/greencircle.png" alt="">
+          <img class="b9_c2" src="images/greencircle.png" alt="">
+          <img class="b9_c3" src="images/greencircle.png" alt="">
+          <img class="b9_c4" src="images/greencircle.png" alt="">
+        </div>
+
+        <div class="block12">
+          <div class="a-wave aw"></div>
+        </div>
+
+        <div class="block18">
+          <img src="images/frog4.png" alt="">
+        </div>
+      </div>
+    </div>
+<!-- внешний круг 7го блока -->
+    <div class="bigblackcircle">
+      <img src="images/bigblackcircle.png" alt="">
+    </div>
+
+    <div class="b2_circles"></div>
+    <div class="b2_c1">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c2">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c3">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c4">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c5">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c6">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c7">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c8">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c9">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c10">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c11">
+      <img src="images/greencircle.png" alt="">
+    </div>
+    <div class="b2_c12">
+      <img src="images/greencircle.png" alt="">
+    </div>
+
+      <div class="block19">
+        <p>Елизавета Давыдович</p>
+        <p>Квария</p>
+        <p>Б22ДЗ10</p>
+      </div>
+  </body>
+</html>
