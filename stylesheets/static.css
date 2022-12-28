@@ -9,7 +9,7 @@
 .block2 {
   width: 883px;
   height: 421px;
-  background: url('/Users/lisa/Desktop/шд/факультатив/kvaria/images/block2_wave.svg');
+  background: url("images/b2_wave.png");
   background-color: rgba(207, 214, 255, 1);
   background-position: 16px 13px;
   border: 3px solid rgba(207, 214, 255, 1);
