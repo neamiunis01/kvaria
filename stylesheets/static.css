@@ -1,6 +1,8 @@
 .allblocks {
   width: 100%;
   height: 2208px;
+  display: flex;
+  flex-direction: column;
 }
 .smallflex {
   width: 100%;
@@ -32,14 +34,8 @@
   background-position: 16px 13px;
   border: 3px solid rgba(207, 214, 255, 1);
   background-repeat: no-repeat;
+  background-size: 96%;
 }
-.block2 > img {
-  width: 834.33px;
-  height: 392px;
-  margin-left: 21px;
-  margin-top: 15px;
-}
-
 /* левый флекс */
 
 .block3 {
@@ -62,6 +58,7 @@
   background-color: white;
   display: inline-block;
   border-bottom: 3px solid rgba(207, 214, 255, 1);
+  background-size: 100%;
 }
 .block4:hover {
   background: url("../images/b4_circleblack.png");
@@ -91,8 +88,8 @@
 }
 .center {
   border: 3px solid black;
-  height: 101px;
-  width: 101px;
+  height: 30%;
+  width: 30%;
   border-radius: 100%;
   margin-left: 98px;
   margin-top: 84px;
@@ -100,11 +97,16 @@
 .block10 {
   width: 37%;
   height: 371px;
+  background: url("../images/b10_circles.png");
+  background-size: 100%;
   background-color: rgba(222, 248, 202, 1);
   border-left: 3px solid rgba(207, 214, 255, 1);
   border-top: 3px solid rgba(207, 214, 255, 1);
   display: inline-block;
   float: left;
+  background-size: 80%;
+  background-position: 29px 118px;
+  background-repeat: no-repeat;
 }
 .b10_c1 {
   width: 16px;
@@ -121,7 +123,8 @@
   border: 3px solid black;
   margin-top: 44px;
   margin-left: 43px;
-}.b10_c3 {
+}
+.b10_c3 {
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -140,6 +143,7 @@
   display: inline-block;
   float: right;
   margin-top: -8px;
+  background-size: 100%;
 }
 .block11:hover {
   background: url("../images/b11_circleblack.png");
@@ -179,7 +183,7 @@
   margin: -3px;
 }
 .greensound1 {
-  width: 73px;
+  width: 30%;
   height: 518px;
   display: inline-block;
   margin-top: 16px;
@@ -187,14 +191,14 @@
   margin-left: 11px;
 }
 .greensound2 {
-  width: 73px;
+  width: 30%;
   height: 518px;
   display: inline-block;
   margin-top: 16px;
   float: left;
 }
 .greensound3 {
-  width: 75px;
+  width: 30%;
   height: 518px;
   display: inline-block;
   margin-top: 16px;
@@ -236,11 +240,15 @@
   overflow: hidden;
 }
 .block9 {
-  width: 52.9%;
+  width: 52%;
   height: 383px;
-  background-color: rgba(207, 214, 255, 1);
   border: 3px solid rgba(207, 214, 255, 1);
+  background-color: rgba(207, 214, 255, 1);
   display: inline-block;
+  background: url("../images/b9_circles.png");
+  background-size: 80%;
+  background-position: 16px 51px;
+  background-repeat: no-repeat;
 }
 .b9_c1 {
   width: 18px;
