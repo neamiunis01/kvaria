@@ -243,12 +243,12 @@
   width: 52%;
   height: 383px;
   border: 3px solid rgba(207, 214, 255, 1);
-  background-color: rgba(207, 214, 255, 1);
   display: inline-block;
   background: url("../images/b9_circles.png");
   background-size: 80%;
   background-position: 16px 51px;
   background-repeat: no-repeat;
+  background-color: rgba(207, 214, 255, 1);
 }
 .b9_c1 {
   width: 18px;
